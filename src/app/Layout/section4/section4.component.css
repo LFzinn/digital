@@ -1,0 +1,59 @@
+section {
+  background-color: var(--verde-claro);
+}
+
+.section4-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 170rem;
+  gap: 3rem;
+  padding: 10rem 0;
+  margin: 0 auto;
+}
+
+.content1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+
+}
+
+.section-txt {
+  display: flex;
+  flex-direction: column;
+  max-width: 55rem;
+  gap: 1.6rem;
+}
+
+.section-txt h4 {
+  font-size: 5rem;
+  color: var(--title);
+}
+
+.section-txt h4 span {
+  color: var(--verde-escuro);
+  font-family: 'Covered By Your Grace', cursive;
+  font-size: 6rem;
+  font-weight: 500;
+}
+
+.section-txt p {
+  font-size: 1.8rem;
+  color: var(--text-p);
+  line-height: 2.4rem;
+}
+
+.section-txt a {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  font-size: 2rem;
+  color: var(--laranja);
+
+}
+
+.section-txt a img {
+  width: 3rem;
+}

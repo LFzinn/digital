@@ -1,0 +1,48 @@
+<section>
+  <div class="title-section5">
+    <h5>Escolha seu Plano</h5>
+    <span>Caso queira adicionar telas extras em alguns dos planos abaixos cada tela adicional tem o valor de R$
+      15,00 cada mês/Credito
+    </span>
+  </div>
+  <div class="container">
+    <div class="price-container" *ngFor="let item of list">
+      <div class="box-txt">
+        <span id="price"><b>{{ item.preco }}</b></span>
+        <span id="plan">{{ item.plano }}</span>
+        <p id="price-p">Valor sujeito a alteração no pagamento via boleto e cartão.</p>
+      </div>
+      <div class="box-content">
+        <div class="box">
+          <img src="../../../assets/icons/correto.png" alt="">
+          <span>{{ item.telas }}.</span>
+        </div>
+        <div class="box">
+          <img src="../../../assets/icons/correto.png" alt="">
+          <span>{{ item.canais }}.</span>
+        </div>
+        <div class="box">
+          <img src="../../../assets/icons/correto.png" alt="">
+          <span>{{ item.cortesia }}.</span>
+        </div>
+        <div class="box">
+          <img src="../../../assets/icons/correto.png" alt="">
+          <span>{{ item.qualidade }}.</span>
+        </div>
+        <div class="box">
+          <img src="../../../assets/icons/correto.png" alt="">
+          <span>{{ item.adulto }}.</span>
+        </div>
+        <div class="box">
+          <img src="../../../assets/icons/correto.png" alt="">
+          <span>{{ item.app }}.</span>
+        </div>
+      </div>
+      <div class="price-btn">
+        <a href="#">Quero Esse!</a>
+        <span>Você sera redirecionado para o Whatsapp</span>
+        <span class="extra">Caso queira adicionar telas extras comunique ao atendente</span>
+      </div>
+    </div>
+  </div>
+</section>

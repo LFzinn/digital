@@ -1,0 +1,80 @@
+section {
+  background-image: url('../../../assets/images/grid.svg.svg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.container {
+  width: 170rem;
+  max-width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 2rem;
+  overflow: hidden;
+  flex-wrap: wrap;
+}
+
+
+
+.group1 h4 {
+  font-size: 3rem;
+  max-width: 53rem;
+  color: var(--title);
+  font-weight: 900;
+}
+
+
+.group1 {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  margin: 5rem 2rem 0 2rem;
+
+
+}
+
+
+.box1 {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+
+.box1 img {
+  width: 3rem;
+  height: 3rem;
+}
+
+.container3-img {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container3-img p {
+  font-size: 5rem;
+  max-width: 55rem;
+  text-align: center;
+  font-weight: 900;
+  color: var(--title);
+}
+
+.container3-img p span {
+  color: var(--verde-escuro);
+  font-family: 'Covered By Your Grace', cursive;
+  font-size: 7rem;
+  font-weight: 500;
+}
+
+
+.container3-img img {
+  position: relative;
+  top: 8.5rem;
+  width: 45rem;
+  height: 40rem;
+}

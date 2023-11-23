@@ -1,0 +1,147 @@
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 5rem;
+  background-image: url('../../../assets/images/grid.svg.svg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+
+.title-section5 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3rem;
+  max-width: 53rem;
+}
+
+.title-section5 h5 {
+  font-size: 6rem;
+  color: var(--title);
+}
+
+.title-section5 span {
+  text-align: center;
+  color: var(--text-p);
+}
+
+
+.container {
+  width: 170rem;
+  max-width: 100%;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+  margin: 10rem 0;
+}
+
+.price-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  gap: 2rem;
+  width: 35rem;
+  height: 64rem;
+  padding: 1rem;
+  background-color: #e0f8f2;
+  box-shadow: var(--dark-shadow);
+  border-radius: 0.5rem;
+}
+
+.price-container .box-txt {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+  max-width: 30rem;
+
+}
+
+.price-container .box-txt::after {
+  content: "";
+  opacity: 0.5;
+  position: absolute;
+  bottom: -2rem;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background-color: var(--laranja);
+}
+
+
+#price {
+  font-size: 2rem;
+  color: var(--title);
+}
+
+#price b {
+  font-size: 4rem;
+}
+
+#plan {
+  font-size: 2rem;
+  color: var(--title);
+}
+
+#price-p {
+  font-size: 1.3rem;
+  color: var(--text-p);
+
+}
+
+.box-content {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.box {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.box-content .box img {
+  width: 2rem;
+  height: 2rem;
+}
+
+.price-btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.price-btn span {
+  font-size: 1.4rem;
+  text-align: center;
+  color: var(--title);
+}
+
+.price-btn a {
+  display: inline-block;
+  width: 19rem;
+  height: 6.2rem;
+  text-align: center;
+  line-height: 6.2rem;
+  background-color: var(--laranja);
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.price-btn .extra {
+  color: var(--text-p);
+}

@@ -1,0 +1,89 @@
+section {
+  background-image: url('../../../assets/images/grid.svg.svg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.container {
+  width: 170rem;
+  max-width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.container h2 {
+  text-align: center;
+  font-size: 5rem;
+  margin-top: 10rem;
+}
+
+.container h2 span {
+  color: var(--laranja);
+
+  font-weight: 900;
+}
+
+.container h2 span .description {
+  text-align: start;
+}
+
+.group_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 3rem;
+  margin: 5rem auto;
+
+}
+
+
+.group {
+  display: flex;
+  padding: 1rem;
+  gap: 2rem;
+  position: relative;
+  height: 15rem;
+}
+
+
+
+.group img {
+  height: 6.5rem;
+  border-radius: 1.2rem;
+  padding: 0.2rem;
+}
+
+.group_txt h3 {
+  font-size: 2.8rem;
+}
+
+.group_txt {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+
+.group_txt p {
+  max-width: 35rem;
+  color: var(--text-p);
+}
+
+
+@media (max-width: 500px) {
+  .container h2 {
+    font-size: 3rem;
+  }
+
+  .container .subTitle {
+    max-width: 100%;
+  }
+
+
+}

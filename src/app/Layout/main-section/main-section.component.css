@@ -1,0 +1,81 @@
+main {
+  background-color: var(--verde-claro);
+
+}
+
+.main-container {
+  display: flex;
+  max-width: 170rem;
+  margin: 0 auto;
+  padding: 5rem 0;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 3rem;
+}
+
+.main-txt {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2rem;
+  width: 62rem;
+  max-width: 100%;
+  margin-left: 2rem;
+}
+
+.main-txt h1 {
+  font-size: 6rem;
+  line-height: 7rem;
+  font-weight: 800;
+  color: var(--title);
+}
+
+.main-txt h1 span {
+  color: var(--verde-escuro);
+  font-family: 'Covered By Your Grace', cursive;
+  font-size: 8rem;
+  font-weight: 500;
+}
+
+.main-txt p {
+  font-weight: 500;
+  font-size: 1.9rem;
+  color: var(--text-p);
+}
+
+.main-btn {
+  margin-top: 5rem;
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+}
+
+.main-btn a {
+  display: inline-block;
+  width: 19rem;
+  height: 6.2rem;
+  text-align: center;
+  line-height: 6.2rem;
+  background-color: var(--laranja);
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.main-btn span {
+  color: var(--title);
+}
+
+.main-img {
+  position: relative;
+  display: flex;
+  max-width: 100%;
+  margin-right: 2rem;
+}
+
+.main-img img {
+  position: relative;
+  width: 55rem;
+  max-width: 100%;
+}

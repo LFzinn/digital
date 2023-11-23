@@ -1,0 +1,49 @@
+footer {
+  background-color: var(--verde-claro);
+
+}
+
+.container {
+  display: flex;
+  max-width: 162rem;
+  justify-content: space-between;
+  padding: 2rem 2rem 0 2rem;
+  margin: 0 auto;
+  border-radius: 1rem 1rem 0 0;
+  color: var(--verde-claro);
+  background-color: var(--title);
+
+}
+
+.content1 {
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.content1 span {
+  font-size: 3rem;
+  color: var(--laranja);
+  font-weight: 900;
+}
+
+.content1 span b {
+  color: var(--verde-claro);
+}
+
+.content1 p {
+  font-size: 1.4rem;
+}
+
+.content2 {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.content2 img {
+  cursor: pointer;
+  width: 3rem;
+  height: 3rem;
+}

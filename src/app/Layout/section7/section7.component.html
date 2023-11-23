@@ -1,0 +1,25 @@
+<section>
+  <div class="container">
+    <div class="faq-container">
+      <div class="faq-title">
+        <span class="title">Perguntas frequentes</span>
+        <div class="faq-box">
+          <div class="box" *ngFor="let ask of list; let i = index" (click)="mostrarResposta(i)"
+            [ngClass]="{ 'pergunta-ativa': perguntaAtiva === i }">
+            <span>{{ ask.pergunta }}</span>
+            <img *ngIf="perguntaAtiva === i" src="../../../assets/icons/svg.png" alt="">
+          </div>
+        </div>
+      </div>
+      <div class="faq-ask">
+        <div class="faq-ask-title">
+          <span class="title">Resposta</span>
+        </div>
+        <div class="box-faq">
+          <img src="../../../assets/icons/Frame.png" alt="">
+          <span *ngIf="perguntaAtiva !== null">{{ list[perguntaAtiva].resposta }}</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

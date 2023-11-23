@@ -1,0 +1,137 @@
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 5rem;
+  background-image: url('../../../assets/images/grid.svg.svg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.container {
+  width: 155rem;
+  height: 55rem;
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 5rem;
+  margin: 10rem 2rem;
+  background-color: var(--verde-claro);
+  box-shadow: 0 0 0 3px var(--title),
+    0 30px 30px rgba(0, 0, 0, .07),
+    0 15px 15px rgba(0, 0, 0, .06),
+    0 10px 8px rgba(0, 0, 0, .05),
+    0 4px 4px rgba(0, 0, 0, .04),
+    0 2px 2px rgba(0, 0, 0, .03);
+  ;
+  border-radius: 0.5rem;
+}
+
+.test-title {
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.container .test-title span {
+  color: var(--title);
+  font-size: 7rem;
+  font-weight: 900;
+}
+
+.container .test-title span b {
+  color: var(--verde-claro);
+  background-color: var(--laranja);
+  padding: 0.5rem;
+  border-radius: 1rem;
+}
+
+
+.step-test {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.step-test .box {
+  height: 25rem;
+  width: 45rem;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.step-test .box #number {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  text-transform: uppercase;
+  color: var(--laranja);
+  font-size: 5rem;
+  font-weight: 900;
+}
+
+
+
+.step-test .box #number b {
+  position: absolute;
+  top: -1rem;
+  left: -1rem;
+  font-size: 10rem;
+  color: var(--title);
+  font-weight: 900;
+  opacity: 0.05;
+
+}
+
+
+.step-test .box img {
+  width: 5rem;
+  height: 5rem;
+}
+
+.step-test .box #description {
+  font-size: 3rem;
+  color: var(--text-p);
+  font-weight: 700;
+  max-width: 30rem;
+
+}
+
+.step-test .box span {
+  font-size: 1.8rem;
+  color: var(--title);
+  font-weight: 700;
+}
+
+
+
+.step-test .box #number img {
+  width: 2rem;
+  height: 2rem;
+}
+
+
+.container a {
+  display: inline-block;
+  font-size: 2rem;
+  width: 19rem;
+  text-align: center;
+  line-height: 8rem;
+  background-color: var(--title);
+  color: #ffff;
+  text-decoration: none;
+  border-radius: 5px;
+  box-shadow: var(--dark-shadow);
+}
