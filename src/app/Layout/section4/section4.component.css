@@ -17,6 +17,7 @@ section {
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
+  margin: 0 2rem;
 
 }
 
@@ -56,4 +57,26 @@ section {
 
 .section-txt a img {
   width: 3rem;
+}
+
+
+@media (max-width: 1150px) {
+  .section-txt {
+    text-align: center;
+    margin-bottom: 6rem;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .section-txt a img {
+    transform: rotate(90deg);
+    width: 2.5rem;
+    height: 3rem;
+  }
+}
+
+@media (max-width: 580px) {
+  .section-img img {
+    max-width: 100%;
+  }
 }

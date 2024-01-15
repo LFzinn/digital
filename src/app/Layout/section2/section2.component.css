@@ -20,12 +20,12 @@ section {
   text-align: center;
   font-size: 5rem;
   margin-top: 10rem;
+  color: var(--title);
+  font-weight: 900;
 }
 
 .container h2 span {
   color: var(--laranja);
-
-  font-weight: 900;
 }
 
 .container h2 span .description {
@@ -76,14 +76,4 @@ section {
 }
 
 
-@media (max-width: 500px) {
-  .container h2 {
-    font-size: 3rem;
-  }
-
-  .container .subTitle {
-    max-width: 100%;
-  }
-
-
-}
+@media (max-width: 700px) {}

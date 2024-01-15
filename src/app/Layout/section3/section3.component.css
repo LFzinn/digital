@@ -32,8 +32,6 @@ section {
   flex-direction: column;
   gap: 3rem;
   margin: 5rem 2rem 0 2rem;
-
-
 }
 
 
@@ -77,4 +75,51 @@ section {
   top: 8.5rem;
   width: 45rem;
   height: 40rem;
+}
+
+
+
+@media (max-width: 1150px) {
+  .group1 {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .box1 {
+    width: 23rem;
+  }
+}
+
+@media (max-width: 530px) {
+
+  .container3-img {
+    text-align: center;
+  }
+
+
+  .container3-img p {
+    font-size: 4.5rem;
+    max-width: 36rem;
+    text-align: center;
+  }
+
+  .container3-img p span {
+    font-size: 6rem;
+  }
+
+  .group1 {
+    margin: 5rem 2rem;
+  }
+
+  .container3-img img {
+    position: relative;
+    top: 8.5rem;
+    width: 45rem;
+    height: 40rem;
+    max-width: 100%;
+  }
+
+
+
 }

@@ -18,6 +18,7 @@ section {
   align-items: center;
   margin-top: 3rem;
   max-width: 53rem;
+  text-align: center;
 }
 
 .title-section5 h5 {
@@ -144,4 +145,11 @@ section {
 
 .price-btn .extra {
   color: var(--text-p);
+}
+
+
+@media (max-width: 1150px) {
+  .container {
+    margin: 3rem 0;
+  }
 }
